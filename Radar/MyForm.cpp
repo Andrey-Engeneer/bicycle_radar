@@ -10,6 +10,6 @@ void Main(array<String^>^ args)
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
 
-	Radar::MyForm form;
+	FlyingCircle::MyForm form;
 	Application::Run(%form);
 }
